@@ -32,6 +32,10 @@ header p {
     font-family: "Sulphur Point", serif;
 }
 
+.ajuda-head {
+    display: flex;
+}
+
 .contato {
     margin-right: 6em;
 }
@@ -108,6 +112,18 @@ input {
 }
 input:hover {
     background-color: rgb(56, 56, 56);
+}
+
+.L-button {
+    position: absolute;
+    top: 110% ;
+    left: 25%;
+}
+
+.R-button {
+    position: absolute;
+    top: 103% ;
+    left: 25%;
 }
 
 #botao {
