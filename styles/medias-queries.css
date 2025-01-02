@@ -104,12 +104,12 @@
     .login {
         font: 55px "Sulphur Point";
         position: absolute;
-        top: 25%;
+        top: 22%;
     }
 
     .container-login {
-        width: 45vw;
-        height:30vh;
+        width: 55vw;
+        height:35vh;
         position: absolute;
         top: 48%;
         backdrop-filter: none;
@@ -118,26 +118,42 @@
     
     .container-reg {
         position: absolute;
-        top: 55%;
+        top: 60%;
         backdrop-filter: none;
         background-color: rgba(0, 0, 0, 0.363);
     }
     
     .reg {
-        font: 32px "Sulphur Point";
+        font: 42px "Sulphur Point";
         position: absolute;
-        top: 17%;
+        top: 12%;
     }
     
     label{
-        font: 22px "Poiret One", serif;
+        font: 32px "Poiret One", serif;
     }   
     
     input {
-        margin: 0 auto 10px;
-        width: 300px;
-        height: 2em;
-        margin: 0 auto 3em;
+        width: 350px;
+        height: 3em;
+        margin: 1em auto 3em;
+    }
+    
+    #botao {
+        width: 20vw;
+        height: 5vh;
+        font-size: 22px;
+        margin-bottom: 2em;
+    }
+
+    .L-button {
+        top: 105%;
+        left: 20%;
+    }
+
+    .R-button {
+        top: 105%;
+        left: 15%;
     }
 
     .ajuda-fot {
