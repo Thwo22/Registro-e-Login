@@ -30,7 +30,7 @@
     .login {
         font: 36px "Sulphur Point";
         position: absolute;
-        top: 30%;
+        top: 34%;
     }
     
     .reg {
@@ -45,12 +45,13 @@
     }
 
     .container-login {
-        height: 35vh;
+        height: 27vh;
         width: 75vw;
     }
 
     .container-reg {
-        height: 65vh;
+        top:52%;
+        height: 58vh;
         width: 75vw;
     }
     
