@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*CELUALRES*/
 @media screen and (max-width:480px) {
     .login-page{
         background: rgb(26, 26, 26) url(../images/login-android.png) no-repeat center / cover fixed;
@@ -76,6 +77,7 @@
     }
 }
 
+/*TABLETS*/
 @media screen and (min-width: 481px) and (max-width:768px) {
     .login-page{
         background: rgb(26, 26, 26) url(../images/login-android.png) no-repeat center / cover fixed;
@@ -161,6 +163,7 @@
     }
 }
 
+/*NOTEBOOKS E TELAS MEDIAS*/
 @media  screen and (min-width:769px) and (max-width:1025px) {
     .login-page{
         background: rgb(26, 26, 26) url(../images/login-pc.png) no-repeat center / cover fixed;
@@ -189,11 +192,11 @@
     .login {
         font: 55px "Sulphur Point";
         position: absolute;
-        top: 24%;
+        top: 25%;
     }
 
     .container-login {
-        width: 40vw;
+        width: 50vw;
         height:25vh;
         position: absolute;
         top: 44%;
@@ -203,26 +206,38 @@
     
     .container-reg {
         position: absolute;
-        top: 55%;
+        top: 50%;
         backdrop-filter: none;
         background-color: rgba(0, 0, 0, 0.363);
     }
     
     .reg {
-        font: 32px "Sulphur Point";
+        font: 50px "Sulphur Point";
         position: absolute;
         top: 17%;
     }
     
     label{
-        font: 22px "Poiret One", serif;
+        font: 32px "Poiret One", serif;
     }   
     
     input {
         margin: 0 auto 10px;
-        width: 300px;
-        height: 2em;
-        margin: 0 auto 3em;
+        width: 350px;
+        height: 3em;
+        margin: 0 auto 2em;
+    }
+
+    .L-button, .R-button {
+        left: 35%;
+        transform: translate(-50%);
+    }
+
+    #botao {
+        width: 20vw;
+        height: 5vh;
+        font-size: 22px;
+        margin-bottom: 2em;
     }
 
     .ajuda-fot {
