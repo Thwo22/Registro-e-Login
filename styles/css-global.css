@@ -142,3 +142,8 @@ input:hover {
 .ajuda-fot {
     display: none;
 }
+
+#sucess, #wrong {
+    width: 22px;
+    height: 22px;
+}
